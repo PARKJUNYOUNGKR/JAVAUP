@@ -5,4 +5,4 @@
 ---
 ### Data Structure and Array and Scanner
 
-- 
+- String to char 
