@@ -1,0 +1,31 @@
+package testjava;
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int max = 0;
+        float sum = 0;
+        float avg = 0;
+        System.out.println("과목 개수 입력: ");
+        int number = sc.nextInt(); //과목 개수 입력
+        int n[] = new int[number];
+        for(int i=0;i<number;i++) {
+            n[i] = sc.nextInt(); //성적 입력 => 세 실수를 입력
+        }
+ 
+        for(int i=0;i<number;i++) {
+            if(max < n[i])
+                max = n[i]; //세개의 입력값 중 제일 큰 값 구하기
+        }
+        
+        for(int i=0;i<number;i++) {
+        	sum += n[i]; // n[0] + n[1] + n[2]
+        	avg = sum/max*100/3; // sum += n[i]/max*100 으로 안한 이유는  자꾸 100으로 나와서 원래값은 200
+            //System.out.println(n[i]); //n[i]에 자신이 입력한 값이 들어가 있는지 확인하기 위한 코드
+        }
+        //System.out.println(max); //max값이 제대로 들어가 있는지 확인하기 위한 코드
+        System.out.println(sum); //sum의 값 출력
+        System.out.println(avg); //avg의 값 출력
+        
+}
+}
