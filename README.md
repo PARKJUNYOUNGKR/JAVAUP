@@ -9,6 +9,12 @@
 ### Double Data Structure
 ---
 
+### 성적 변환 후 평균 구하기 
+
+![image](https://user-images.githubusercontent.com/96164365/179666745-46f2a981-a02f-467f-b9d9-087e111bece5.png)
+
+---
+
 ### Data Structure and Array and Scanner
 
 - String to char 
