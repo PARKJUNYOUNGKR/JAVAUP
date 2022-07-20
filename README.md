@@ -30,4 +30,23 @@
 ## JAVAUP 2022-07-20
 ---
 
-### 
+### 연속된 자연수의 합 계산
+
+![image](https://user-images.githubusercontent.com/96164365/179917374-71bcacdb-7df9-4cdb-91ab-362ceaffd688.png)
+
+---
+### 주몽의 명령
+
+![image](https://user-images.githubusercontent.com/96164365/179917768-3b79f855-b26f-4cb4-bb71-2c46537cd115.png)
+
+---
+### 좋은 수 구하기
+
+![image](https://user-images.githubusercontent.com/96164365/179917876-5af6a855-afa0-4825-86ca-1941d259371c.png)
+
+---
+## JAVAUP 2022-07-22
+---
+
+###
+
