@@ -45,8 +45,23 @@
 ![image](https://user-images.githubusercontent.com/96164365/179917876-5af6a855-afa0-4825-86ca-1941d259371c.png)
 
 ---
+### 스택
+![image](https://user-images.githubusercontent.com/96164365/179923211-dba74cea-62bd-43d4-b3f7-91bdc8db386b.png)
+
+---
+### 스택의 다양한 출력
+![image](https://user-images.githubusercontent.com/96164365/179923301-a0b82011-5506-47c6-85a2-c739279839f3.png)
+
+---
 ## JAVAUP 2022-07-22
 ---
+### 
 
+---
 ###
+
+---
+
+
+
 
