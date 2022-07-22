@@ -1,0 +1,43 @@
+package univ;
+import java.util.Queue;
+import java.util.Scanner;
+import java.util.PriorityQueue;
+
+public class Main98 {
+
+	public static void main(String[] args) {
+		PriorityQueue<Integer> q = new PriorityQueue<>((o1, o2) -> {
+			int first = Math.abs(o1);
+			int second = Math.abs(o2);
+			if(first == second) {
+				return o1>o2 ? 1:-1;
+			}
+				else {
+					return first - second;
+				}
+		});
+		Scanner sc = new Scanner(System.in);
+		System.out.print("질의 요청 개수: ");
+		int n = sc.nextInt();
+		int pq;
+		System.out.println("예제 입력: ");
+		for(int i=0;i<n;i++) {
+			pq = sc.nextInt();
+			if(pq==0) {
+				if(q.isEmpty()) {
+					System.out.println("0");
+				}
+				if(!q.isEmpty())
+					System.out.println(q.poll());
+				
+				
+			}
+			else {
+				q.add(pq);
+			}
+		}
+			
+		}
+	}
+
+
