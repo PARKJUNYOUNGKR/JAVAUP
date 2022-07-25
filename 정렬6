@@ -1,0 +1,39 @@
+package univ;
+import java.util.*;
+public class Main995 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int person = sc.nextInt();
+		int time[] = new int[person];
+		int sum[] = new int[person];
+		int ext;
+		int answer=0;
+		
+		for(int i=0;i<person;i++) {
+			time[i] = sc.nextInt(); 
+		}
+		for(int i=0;i<person;i++) {
+			ext = time[i];
+			for(int j=0;j<i;j++) {
+				if(ext<time[j]) {	
+					for(int k=i;k>j;k--) {
+						time[k] = time[k-1];
+					}
+					time[j] = ext;
+					break;
+				}
+			}
+		}
+		for(int i=1;i<person;i++) {
+			sum[0] = time[0];
+			sum[i] = sum[i-1] +time[i];
+		}
+		
+		for(int t=0;t<person;t++) {
+			System.out.print(time[t] + " ");
+			answer += sum[t];
+		}
+		System.out.println(answer);
+	}
+}
